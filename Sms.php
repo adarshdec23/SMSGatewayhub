@@ -19,7 +19,7 @@ class Sms {
 		$this->parameter['DCS'] = 0;
 		//Use \n for a line break
 		$this->template = array(
-			"approvedTemplate" => "Dear %s , Your package has been shipped.",
+			"shipmentTemplate" => "Dear %s , Your package has been shipped.",
 		);
 	}
 	/*
